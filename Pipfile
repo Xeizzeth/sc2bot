@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+portpicker = "*"
+async-timeout = "<4.0,>=3.0"
+"s2clientprotocol" = "*"
+pyglet = "*"
+numpy = "*"
+scipy = "*"
+tornado = "*"
+aiohttp = "*"
+
+[dev-packages]
+pytest = "*"
+mypy = "*"
+pillow = "*"
+pytest-asyncio = "*"
+hypothesis = "*"
+pytest-benchmark = "*"
+numba = "*"
+sphinx = "*"
+sphinx-autodoc-typehints = "*"
+aiologger = "*"
+rope = "*"
+
+[requires]
+python_version = "3.7"
